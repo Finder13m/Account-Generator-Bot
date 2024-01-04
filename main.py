@@ -3,15 +3,15 @@
 import nextcord, os, random, datetime, asyncio
 from nextcord.ext import commands
 
-free_gen_channel = 5374638235 # Channel ID here
+free_gen_channel = 1069276844609769542 # Channel ID here
 
 free_cooldowns = {}
 
 intents = nextcord.Intents.all()
 bot = commands.Bot(intents=intents, help_command=None)
 
-server_name = "ENTER YOUR SERVER NAME HERE"
-server_logo = "ENTER YOUR SERVER'S LOGO LINK HERE"
+server_name = "MrikGEN"
+server_logo = "https://cdn.discordapp.com/attachments/1069240374591226038/1192417263861645392/IMG_20231218_132134_271.jpg?ex=65a9001d&is=65968b1d&hm=7984389ceb38035129cb5e2a96040df38039c003aff64b90262cdef58ae9078a&"
 
 @bot.event
 async def on_ready():
